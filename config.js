@@ -60,7 +60,7 @@ var config = {
             image: 'images/target.svg',
             description: 'Tenke and Fungurume were each once separate cities, until heterogenite ores were discovered. Gecamines promised public support to offset displacement for creation of Fungurume mines, but that was not carried over into future mining leadership.',
             location: {
-                center: [-10.628,26.221],
+                center: [26.221,-10.628],
                 zoom: 11.59,
                 pitch: 0,
                 bearing: 0,

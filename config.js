@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/alanacg/clrjmsn2r000b01p58f1p9cne',
+    style: 'mapbox://styles/alanacg/cltqbay5j02m201ph5ph9a4s9',
     accessToken: 'pk.eyJ1IjoiYWxhbmFjZyIsImEiOiJjbHI2dTdmaTgyYmJkMmtteWg4aTFyYjd0In0.4egkQvHeJNw_VNBgcSEZmg',
     showMarkers: true,
     markerColor: '#3FB1CE',
@@ -10,8 +10,8 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'The Title Text of this Story',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    title: 'Resource Extractivism and the Lasting Impacts of Colonialism in the DRC',
+    subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopold's Ghost and Cobalt Red',
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
@@ -19,9 +19,9 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left', //options are left, right, center, full
             hidden: false, //can hide panel with this
-            title: 'Display Title',
+            title: 'Mining Provinces',
             image: 'images/source.png',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: 'Shapefile of the mining provinces in Southeast DRC',
             //text for description is html- can rely on that for extra formatting
             location: {
                 center: [-122.418398, 37.759483],
@@ -56,19 +56,19 @@ var config = {
             id: 'second-identifier', //need unique id for each chapter
             alignment: 'right',
             hidden: false,
-            title: 'Second Title',
+            title: 'Mining in Tenke Fungurume',
             image: 'images/target.svg',
-            description: 'Copy these sections to add to your story.',
+            description: 'Tenke and Fungurume were each once separate cities, until heterogenite ores were discovered. Gecamines promised public support to offset displacement for creation of Fungurume mines, but that was not carried over into future mining leadership.',
             location: {
-                center: [-77.020636, 38.886900],
-                zoom: 8.5,
-                pitch: 60,
-                bearing: -43.2,
+                center: [-10.628,26.221],
+                zoom: 11.59,
+                pitch: 0,
+                bearing: 0,
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: ['temporary-places'],
             onChapterExit: []
         },
         {

@@ -68,7 +68,12 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: ['temporary-places'],
+            onChapterEnter: [
+                {
+                layer: 'temporary-places',
+                opacity: 1
+                }
+            ],
             onChapterExit: []
         },
         {

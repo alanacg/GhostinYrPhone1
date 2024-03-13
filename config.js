@@ -11,7 +11,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Resource Extractivism and the Lasting Impacts of Colonialism in the DRC',
-    subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopold's Ghost and Cobalt Red',
+    subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopolds Ghost and Cobalt Red',
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [

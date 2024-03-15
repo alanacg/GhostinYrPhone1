@@ -24,9 +24,9 @@ var config = {
             description: 'Shapefile of the mining provinces in Southeast DRC',
             //text for description is html- can rely on that for extra formatting
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 8.5,    //how close/far you are from map content
-                pitch: 60,    //angle from azimuth to view the map at (0 is straight on)
+                center: [26.197,-3.936],
+                zoom: 4.92,    //how close/far you are from map content
+                pitch: 10,    //angle from azimuth to view the map at (0 is straight on)
                 bearing: 0    //offset from 0°N map is viewed from
             },
             mapAnimation: 'flyTo',    //more options in mapbox/storytelling repo
@@ -39,17 +39,16 @@ var config = {
             rotateAnimation: false,
             callback: '', //add additional js function for this key
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                 {
+                     layer: 'country-boundaries(1)',
+                     opacity: 1,
+                 }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                 {
+                     layer: 'country-boundaries(1)',
+                     opacity: 0
+                 }
             ]
         },
         {
@@ -75,22 +74,22 @@ var config = {
                 }
             ],
             onChapterExit: [
-                {
-                layer: 'temporary-places',
-                opacity: 0
-                }
+                //{
+                //layer: 'temporary-places',
+                //opacity: 0
+                //}
             ]
         },
         {
             id: 'third-identifier',
             alignment: 'left',
             hidden: false,
-            title: 'Third Title',
+            title: 'Mines at Tilwezembe',
             image: 'images/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [6.15116, 46.20595],
-                zoom: 12.52,
+                center: [25.702,-10.797],
+                zoom: 14.49,
                 pitch: 8.01,
                 bearing: 0.00
             },

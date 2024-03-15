@@ -76,7 +76,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                layer: 'layer-name',
+                layer: 'temporary-places',
                 opacity: 0
                 }
             ]

@@ -7,7 +7,7 @@ var config = {
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: false,
-    theme: 'dark',
+    theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: 'Resource Extractivism and the Lasting Impacts of Colonialism in the DRC',
@@ -60,7 +60,7 @@ var config = {
             image: 'images/target.svg',
             description: 'Tenke and Fungurume were each once separate cities, until heterogenite ores were discovered. Gecamines promised public support to offset displacement for creation of Fungurume mines, but that was not carried over into future mining leadership.',
             location: {
-                center: [26.221,-10.628],
+                center: [26.221, -10.628],
                 zoom: 11.59,
                 pitch: 0,
                 bearing: 0,
@@ -74,7 +74,12 @@ var config = {
                 opacity: 1
                 }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                layer: 'layer-name',
+                opacity: 0
+                }
+            ]
         },
         {
             id: 'third-identifier',

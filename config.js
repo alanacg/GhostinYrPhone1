@@ -40,13 +40,13 @@ var config = {
             callback: '', //add additional js function for this key
             onChapterEnter: [
                  {
-                     layer: 'country-boundaries(1)',
+                     layer: 'country-boundaries (1)',
                      opacity: 1,
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'country-boundaries(1)',
+                     layer: 'country-boundaries (1)',
                      opacity: 0
                  }
             ]
@@ -56,7 +56,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Mining in Tenke Fungurume',
-            image: 'images/target.svg',
+            //image: 'images/target.svg',
             description: 'Tenke and Fungurume were each once separate cities, until heterogenite ores were discovered. Gecamines promised public support to offset displacement for creation of Fungurume mines, but that was not carried over into future mining leadership.',
             location: {
                 center: [26.221, -10.628],
@@ -82,13 +82,13 @@ var config = {
         },
         {
             id: 'third-identifier',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Mines at Tilwezembe',
             image: 'images/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [25.702,-10.797],
+                center: [25.702,-10.787],
                 zoom: 14.49,
                 pitch: 8.01,
                 bearing: 0.00

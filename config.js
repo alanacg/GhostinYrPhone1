@@ -34,11 +34,7 @@ var config = {
                  {
                      layer: 'mapbox-satellite',
                      opacity: 0,
-                 },
-                 //{
-                  //   layer: 'country-boundaries (1)',
-                   //  opacity: 0,
-                 //}
+                 }
             ],
             onChapterExit: [
                  {
@@ -47,6 +43,10 @@ var config = {
                  },
             ]
         },
+        //{
+                  //   layer: 'country-boundaries (1)',
+                   //  opacity: 0,
+                 //}
         {
             id: 'slug-style-id',
             alignment: 'left', //options are left, right, center, full

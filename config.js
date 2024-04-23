@@ -30,8 +30,22 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                 {
+                     layer: 'mapbox-satellite',
+                     opacity: 0,
+                 },
+                 {
+                     layer: 'country-boundaries (1)',
+                     opacity: 0,
+                 }
+            ],
+            onChapterExit: [
+                 {
+                     layer: 'mapbox-satellite',
+                     opacity: 1
+                 },
+            ]
         },
         {
             id: 'slug-style-id',

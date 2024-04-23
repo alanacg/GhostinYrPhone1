@@ -14,7 +14,25 @@ var config = {
     subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopolds Ghost and Cobalt Red',
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    chapters: [
+    chapters: [{
+            id: 'opener-chapter',
+            alignment: 'left',
+            hidden: false,
+            title: 'Colonial History of the DRC',
+            image: 'images/slavevoyage.jpg',
+            description: '- enslavement began in 1300/1400s - beginning of European presence in the region <br> - Ivory trade increased in 1800s, port at mouth of Congo River near Boma becomes important',
+            location: {
+                center: [12.33735, -6.02134],
+                zoom: 7,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: 'slug-style-id',
             alignment: 'left', //options are left, right, center, full

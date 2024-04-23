@@ -35,10 +35,10 @@ var config = {
                      layer: 'mapbox-satellite',
                      opacity: 0,
                  },
-                 {
-                     layer: 'country-boundaries (1)',
-                     opacity: 0,
-                 }
+                 //{
+                  //   layer: 'country-boundaries (1)',
+                   //  opacity: 0,
+                 //}
             ],
             onChapterExit: [
                  {

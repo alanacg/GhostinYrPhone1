@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/alanacg/cltqbay5j02m201ph5ph9a4s9',
     accessToken: 'pk.eyJ1IjoiYWxhbmFjZyIsImEiOiJjbHI2dTdmaTgyYmJkMmtteWg4aTFyYjd0In0.4egkQvHeJNw_VNBgcSEZmg',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -16,10 +16,34 @@ var config = {
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [{
             id: 'opener-chapter',
+            alignment: 'full',
+            hidden: false,
+            title: 'Colonial History of the DRC and the Slave Trade',
+            image: 'images/slavevoyage.jpg',
+            description: '- enslavement began in 1300/1400s - beginning of European presence in the region <br> - Ivory trade increased in 1800s, port at mouth of Congo River near Boma becomes important',
+            location: {
+                center: [12.33735, -6.02134],
+                zoom: 10,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: [
+                 {
+                     layer: 'mapbox-satellite',
+                     opacity: 1,
+                 }
+            ]
+        },
+        {
+            id: 'resources',
             alignment: 'left',
             hidden: false,
-            title: 'Colonial History of the DRC',
-            image: 'images/slavevoyage.jpg',
+            title: 'Early Resource Extraction in the Congo',
+            image: '',
             description: '- enslavement began in 1300/1400s - beginning of European presence in the region <br> - Ivory trade increased in 1800s, port at mouth of Congo River near Boma becomes important',
             location: {
                 center: [12.33735, -6.02134],
@@ -33,14 +57,39 @@ var config = {
             onChapterEnter: [
                  {
                      layer: 'mapbox-satellite',
-                     opacity: 0,
-                 }
+                     opacity: 1,
+                 },
+                
             ],
             onChapterExit: [
+                
+            ]
+        },
+        {
+            id: 'leopold',
+            alignment: 'right',
+            hidden: false,
+            title: 'King Leopold II and the Congo Free State',
+            image: 'images/freestate.png',
+            description: 'Following major expeditions by European explorers in the 1800s, the King of the Belgians, Leopold II, took interest in the resources of the Congo region.',
+            location: {
+                center: [26.197,-3.936],
+                zoom: 4.92,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
                  {
                      layer: 'mapbox-satellite',
-                     opacity: 1
+                     opacity: 1,
                  },
+                
+            ],
+            onChapterExit: [
+                
             ]
         },
         //{
@@ -139,8 +188,8 @@ var config = {
             image: 'images/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-58.54195, -34.71600],
-                zoom: 4,
+                center: [29.221,-1.662],
+                zoom: 11.8,
                 pitch: 0,
                 bearing: 0
             },

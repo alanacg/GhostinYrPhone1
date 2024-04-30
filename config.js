@@ -46,8 +46,8 @@ var config = {
             image: 'images/freestate.png',
             description: '- enslavement began in 1300/1400s - beginning of European presence in the region <br> - Ivory trade increased in 1800s, port at mouth of Congo River near Boma becomes important',
             location: {
-                center: [12.33735, -6.02134],
-                zoom: 10,
+                center: [12.735,-5.830],
+                zoom: 8.96,
                 pitch: 0,
                 bearing: 0
             },

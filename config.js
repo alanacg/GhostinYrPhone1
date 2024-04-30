@@ -43,7 +43,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Early Resource Extraction in the Congo',
-            image: '',
+            image: 'images/freestate.png',
             description: '- enslavement began in 1300/1400s - beginning of European presence in the region <br> - Ivory trade increased in 1800s, port at mouth of Congo River near Boma becomes important',
             location: {
                 center: [12.33735, -6.02134],
@@ -55,10 +55,10 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                 {
-                     layer: 'mapbox-satellite',
-                     opacity: 1,
-                 },
+                    {
+                        layer: 'place-label',
+                        opacity: 1,
+                    }
                 
             ],
             onChapterExit: [

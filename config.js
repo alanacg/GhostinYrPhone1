@@ -124,8 +124,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Independence and the Assasination of Lumumba',
-            image: 'images/source.png',
-            description: 'Lumumba, independence, dictators, Leopoldville --> Kinshasa',
+            image: 'images/lumumba_speech.jpeg',
+            description: '<i> Lumumba gives a speech after he is elected first Prime Minister of the DRC. </i> <br> The Democratic Republic of the Congo (DRC) was granted independence from Belgium in 1963, when the citizens held their first, and only, free election. Lumumba, independence, dictators, Leopoldville --> Kinshasa',
             location: {
                 center: [15.458,-4.304],
                 zoom: 10.17,
@@ -142,8 +142,8 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left', //options are left, right, center, full
             hidden: false, //can hide panel with this
-            title: 'Mining Provinces',
-            image: 'images/source.png',
+            title: 'Mining Provinces - Demand for Cobalt',
+            image: '',
             description: 'Shapefile of the mining provinces in Southeast DRC',
             //text for description is html- can rely on that for extra formatting
             location: {
@@ -178,30 +178,30 @@ var config = {
                   //   layer: 'country-boundaries (1)',
                    //  opacity: 0,
                  //}
-        {
-            id: 'third-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Mines at Tilwezembe',
-            image: 'images/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [25.702,-10.787],
-                zoom: 14.49,
-                pitch: 8.01,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+        //{
+           // id: 'third-identifier',
+            // alignment: 'right',
+            // hidden: false,
+            //title: 'Cobalt for Batteries / Mines at Tilwezembe',
+            //image: 'images/source.png',
+          //  description: 'Copy these sections to add to your story.',
+           // location: {
+             //   center: [25.702,-10.787],
+             //   zoom: 14.49,
+             //   pitch: 8.01,
+             //   bearing: 0.00
+           // },
+          //  mapAnimation: 'flyTo',
+          //  rotateAnimation: false,
+         //   callback: '',
+         //   onChapterEnter: [],
+        //    onChapterExit: []
+       // },
         {
             id: 'second-identifier', //need unique id for each chapter
             alignment: 'right',
             hidden: false,
-            title: 'Mining in Tenke Fungurume',
+            title: 'Cobalt supply chain and displacement - Mining in Tenke Fungurume',
             //image: 'images/target.svg',
             description: 'Tenke and Fungurume were each once separate cities, until heterogenite ores were discovered. Gecamines promised public support to offset displacement for creation of Fungurume mines, but that was not carried over into future mining leadership.',
             location: {
@@ -230,7 +230,7 @@ var config = {
             id: 'third-identifier',
             alignment: 'right',
             hidden: false,
-            title: 'Mines at Tilwezembe',
+            title: 'Cobalt Impacts on Local Populations and Hazardous Conditions- Mines at Tilwezembe',
             image: 'images/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -251,7 +251,7 @@ var config = {
             hidden: false,
             title: 'Current conflict, M23, and DRC humanitarian capitol',
             image: 'images/source.png',
-            description: 'Modern human rights issues and connections to Rwandan genocide.',
+            description: 'Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
             location: {
                 center: [29.221,-1.662],
                 zoom: 11.8,

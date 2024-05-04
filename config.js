@@ -12,7 +12,7 @@ var config = {
     auto: false,
     title: 'Resource Extractivism and the Lasting Impacts of Colonialism in the DRC',
     subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopolds Ghost and Cobalt Red',
-    byline: 'By a Digital Storyteller',
+    byline: 'By Alana Ginsburg and Kurt Alsheimer',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [{
             id: 'opener-chapter',
@@ -44,7 +44,7 @@ var config = {
             hidden: false,
             title: 'Early Resource Extraction in the Congo',
             image: 'images/freestate.png',
-            description: '- enslavement began in 1300/1400s - beginning of European presence in the region <br> - Ivory trade increased in 1800s, port at mouth of Congo River near Boma becomes important',
+            description: 'Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
             location: {
                 center: [12.735,-5.830],
                 zoom: 8.96,
@@ -71,7 +71,7 @@ var config = {
             hidden: false,
             title: 'King Leopold II and the Congo Free State',
             image: 'images/freestate.png',
-            description: 'Following major expeditions by European explorers in the 1800s, the King of the Belgians, Leopold II, took interest in the resources of the Congo region.',
+            description: 'King Leopold II claims the region as his personal territory following major expeditions by European explorers. During the Berlin Conference of 1885, the major powers of Europe granted King Leopold II permission to establish a colony named Congo Free State in the region. King Leopold II owned the colony until he reached his deathbed in 1908. Once the Belgians took control, they conned locals into unfairly giving up their sovereignty, goods and lands to soldiers known as the Force Publique who ran trade in the region.',
             location: {
                 center: [26.197,-3.936],
                 zoom: 4.92,

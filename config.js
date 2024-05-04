@@ -94,16 +94,16 @@ var config = {
         },
         {
             id: 'more-resource',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'The Rubber Trade and Movements for Congo Reform',
-            image: 'images/freestate.png',
-            description: '',
+            image: '',
+            description: 'Economic pressure on Congo Free State was relieved with the invention of the rubber tire, spurred along by the invention of the automobile. ',
             location: {
-                center: [26.197,-3.936],
-                zoom: 4.92,
+                center: [25.641,0.337],
+                zoom: 6.15,
                 pitch: 0,
-                bearing: 0
+                bearing: 5
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,

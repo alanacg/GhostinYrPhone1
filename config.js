@@ -92,6 +92,33 @@ var config = {
                 
             ]
         },
+        {
+            id: 'more-resource',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Rubber Trade and Movements for Congo Reform',
+            image: 'images/freestate.png',
+            description: '',
+            location: {
+                center: [26.197,-3.936],
+                zoom: 4.92,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'mapbox-satellite',
+                     opacity: 1,
+                 },
+                
+            ],
+            onChapterExit: [
+                
+            ]
+        },
         //{
                   //   layer: 'country-boundaries (1)',
                    //  opacity: 0,

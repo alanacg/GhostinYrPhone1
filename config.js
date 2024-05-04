@@ -119,10 +119,48 @@ var config = {
                 
             ]
         },
+        {
+            id: 'drc-independence',
+            alignment: 'right',
+            hidden: false,
+            title: 'Independence and the Assasination of Lumumba',
+            image: 'images/source.png',
+            description: 'Lumumba, independence, dictators, Leopoldville --> Kinshasa',
+            location: {
+                center: [15.458,-4.304],
+                zoom: 10.17,
+                pitch: 8.01,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         //{
                   //   layer: 'country-boundaries (1)',
                    //  opacity: 0,
                  //}
+        {
+            id: 'third-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Mines at Tilwezembe',
+            image: 'images/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [25.702,-10.787],
+                zoom: 14.49,
+                pitch: 8.01,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: 'slug-style-id',
             alignment: 'left', //options are left, right, center, full
@@ -209,11 +247,11 @@ var config = {
         },
         {
             id: 'fourth-chapter',
-            alignment: 'full',
+            alignment: 'left',
             hidden: false,
-            title: 'Third Title',
+            title: 'Current conflict, M23, and DRC humanitarian capitol',
             image: 'images/source.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Modern human rights issues and connections to Rwandan genocide.',
             location: {
                 center: [29.221,-1.662],
                 zoom: 11.8,

@@ -138,29 +138,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        //{
-                  //   layer: 'country-boundaries (1)',
-                   //  opacity: 0,
-                 //}
-        {
-            id: 'third-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Mines at Tilwezembe',
-            image: 'images/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [25.702,-10.787],
-                zoom: 14.49,
-                pitch: 8.01,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
         {
             id: 'slug-style-id',
             alignment: 'left', //options are left, right, center, full
@@ -186,16 +163,39 @@ var config = {
             callback: '', //add additional js function for this key
             onChapterEnter: [
                  {
-                     layer: 'country-boundaries (1)',
+                     layer: 'rd-congo-admin-4-provinces-1apw5y',
                      opacity: 1,
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'country-boundaries (1)',
+                     layer: 'crd-congo-admin-4-provinces-1apw5y',
                      opacity: 0
                  }
             ]
+        },
+        //{
+                  //   layer: 'country-boundaries (1)',
+                   //  opacity: 0,
+                 //}
+        {
+            id: 'third-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Mines at Tilwezembe',
+            image: 'images/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [25.702,-10.787],
+                zoom: 14.49,
+                pitch: 8.01,
+                bearing: 0.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'second-identifier', //need unique id for each chapter

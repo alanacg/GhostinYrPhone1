@@ -43,8 +43,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Early Resource Extraction in the Congo',
-            image: 'images/freestate.png',
-            description: 'Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
+            image: 'images/congo_ivory.png',
+            description: 'Figure: Display of ivory for a single export shipment. Main source of ivory: the Lomami Concession Company (Kisangani, early 1900s). \n Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
             location: {
                 center: [12.735,-5.830],
                 zoom: 8.96,

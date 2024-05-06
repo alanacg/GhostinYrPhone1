@@ -169,8 +169,8 @@ var config = {
             ],
             onChapterExit: [
                  {
-                     layer: 'crd-congo-admin-4-provinces-1apw5y',
-                     opacity: 0
+                     layer: 'rd-congo-admin-4-provinces-1apw5y',
+                     opacity: 0.25
                  }
             ]
         },

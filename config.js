@@ -14,30 +14,7 @@ var config = {
     subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopolds Ghost and Cobalt Red',
     byline: 'By Alana Ginsburg and Kurt Alsheimer',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    chapters: [{
-            id: 'opener-chapter',
-            alignment: 'full',
-            hidden: false,
-            title: 'Colonial History of the DRC and the Slave Trade',
-            image: 'images/slavevoyage.jpg',
-            description: '<i> Figure: Map of Slave Voyages Database from Emory University. </i> <br> In 1482, modern Europeans first began their contact with the peoples of the present-day region known as Democratic Republic of the Congo. They entered at the mouth of the yellow Congo River, one of the world's longest rivers that passes through the world's second largest rainforest. This was significant, as the Europeans used their advanced technology, such as rifles to forcibly kidnap locals from their homes to become slaves in the New World. Ports along this river and nearby coast witnessed some of the cruelest human treatment as a major step along the Middle Passage.',
-            location: {
-                center: [12.33735, -6.02134],
-                zoom: 10,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: [
-                 {
-                     layer: 'mapbox-satellite',
-                     opacity: 1,
-                 }
-            ]
-        },
+    chapters: [
         {
             id: 'resources',
             alignment: 'left',
@@ -144,8 +121,7 @@ var config = {
             hidden: false, //can hide panel with this
             title: 'Mining Provinces - Demand for Cobalt',
             image: '',
-            description: ' ',
-            //text for description is html- can rely on that for extra formatting
+            description: 'In modern times, the corrupt government of the DRC has left the countrys people vulnerable to two major threats: armed militias seeking ownership of the region and the foreign race for more cobalt minerals to meet the growing demand created by the transition to electrification. The blue region represents the center of the mining activities in the Southeast DRC. The yellow regions are where there is highest risk of violent conflict due to M23 militia presence. <br>The world is continuing to pivot away from fossil fuel towards clean energy. This move to clean energy has fueled an urgency to mine cobalt for the lithium batteries used in our cell phones, other personal electronics (such as tools and appliances) and electric vehicles. Cobalt was discovered in the Belgian Congo in 1914. The element has strong magnetism, hardness and   resistance to corrosion and heat damage. It has many industrial uses. About 1/2 of cobalt mined is being used in rechargeable lithium batteries. The “cobalt boom” began a decade ago to meet the needs of these personal electronics. Demand is now being driven by the electric vehicle market and has tripled in the last decade.',
             location: {
                 center: [26.197,-3.936],
                 zoom: 4.92,    //how close/far you are from map content
@@ -174,29 +150,6 @@ var config = {
                  }
             ]
         },
-        //{
-                  //   layer: 'country-boundaries (1)',
-                   //  opacity: 0,
-                 //}
-        //{
-           // id: 'third-identifier',
-            // alignment: 'right',
-            // hidden: false,
-            //title: 'Cobalt for Batteries / Mines at Tilwezembe',
-            //image: 'images/source.png',
-          //  description: 'Copy these sections to add to your story.',
-           // location: {
-             //   center: [25.702,-10.787],
-             //   zoom: 14.49,
-             //   pitch: 8.01,
-             //   bearing: 0.00
-           // },
-          //  mapAnimation: 'flyTo',
-          //  rotateAnimation: false,
-         //   callback: '',
-         //   onChapterEnter: [],
-        //    onChapterExit: []
-       // },
         {
             id: 'second-identifier', //need unique id for each chapter
             alignment: 'right',
@@ -225,25 +178,6 @@ var config = {
                 //opacity: 0
                 //}
             ]
-        },
-        {
-            id: 'third-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Cobalt Impacts on Local Populations and Hazardous Conditions- Mines at Tilwezembe',
-            image: 'images/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [25.702,-10.787],
-                zoom: 14.49,
-                pitch: 8.01,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
         },
         {
             id: 'fourth-chapter',

@@ -126,7 +126,7 @@ var config = {
             hidden: false,
             title: 'Independence and the Assasination of Lumumba',
             image: 'images/lumumba_speech.jpeg',
-            description: '<i> Lumumba gives a speech after he is elected first Prime Minister of the DRC. </i> <br> The Democratic Republic of the Congo (DRC) was granted independence from Belgium in 1963, when the citizens held their first, and only, free election. Lumumba, independence, dictators, Leopoldville --> Kinshasa',
+            description: '<i> Lumumba gives a speech after he is elected first Prime Minister of the DRC. </i> <br> The Democratic Republic of the Congo (DRC) was granted independence from Belgium in 1963, when the citizens held their first, and only, free election. Patrice Lumumba was elected, and began to peacefully and equitably transfer the country towards independence. After expressing interest in socialist systems via messaging with the USSR, Western powers such as the US and Belgium grew concerned about Lumumba. They executed an assasination and enabled Joseph Mobutu, a known dictator, to become president next. <br> Leopoldville --> Kinshasa',
             location: {
                 center: [15.458,-4.304],
                 zoom: 10.17,
@@ -209,7 +209,7 @@ var config = {
             hidden: false,
             title: 'Cobalt Impacts on Local Populations and Hazardous Conditions- Mines at Tilwezembe',
             image: 'images/source.png',
-            description: 'Copy these sections to add to your story.',
+            description: ' Although the mining region is known as one of the richest regions in the country, Congolese cobalt miners face a reality where modern day slavery is the norm. Safety violations are rampant, as these sites are nearly impossible to regulate. Tunnel collapses have been known to kill 50 people at once, and leave the few survivors severely injured. Cobalt is also very damaging via radiation to human and environmental health. Cobalt production causes significant pollution to the water and soil that has devastated the landscape. The pollution  (acids and wastes from the mines) kills crops primarily through soil damage.',
             location: {
                 center: [25.702,-10.787],
                 zoom: 14.49,

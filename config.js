@@ -228,8 +228,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Current conflict, M23, and DRC humanitarian capitol',
-            image: '',
-            description: 'Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
+            image: 'images/unfpa_mayindu.jpg',
+            description: '<i> Figure: UNFPA Buyenga IDP camp </i> Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
             location: {
                 center: [29.221,-1.662],
                 zoom: 11.8,

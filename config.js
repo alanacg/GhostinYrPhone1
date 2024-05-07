@@ -144,7 +144,7 @@ var config = {
             hidden: false, //can hide panel with this
             title: 'Mining Provinces - Demand for Cobalt',
             image: '',
-            description: 'In modern times,the corrupt government of the DRC has left the country's people vulnerable to two major threats: armed militias seeking ownership of the region and the foreign race for more cobalt minerals to meet the growing demand created by the transition to electrification. The blue region represents the center of the mining activities in Southeast the DRC. The yellow regions are where there is highest risk of violent conflict due to M23 militia presence. The world is continuing to pivot away from fossil fuel towards clean energy. This move to clean energy has fueled an urgency to mine cobalt for the lithium batteries used in our cell phones, other personal electronics -- such as tools and appliances -- and electric vehicles. Cobalt was discovered in the Belgian Congo in 1914. The element has strong magnetism, hardness and   resistance to corrosion and heat damage. It has many industrial uses. About ½ of cobalt mined is being used in rechargeable lithium batteries. The “cobalt boom” began a decade ago to meet the needs of these personal electronics. Demand is now being driven by the electric vehicle market and has tripled in the last decade. ',
+            description: ' ',
             //text for description is html- can rely on that for extra formatting
             location: {
                 center: [26.197,-3.936],

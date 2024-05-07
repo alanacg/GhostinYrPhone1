@@ -206,10 +206,10 @@ var config = {
         },
         {
             id: 'third-identifier',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Cobalt Impacts on Local Populations and Hazardous Conditions- Mines at Tilwezembe',
-            image: 'images/source.png',
+            image: 'images/lakemalodig.jpg',
             description: ' Although the mining region is known as one of the richest regions in the country, Congolese cobalt miners face a reality where modern day slavery is the norm. Safety violations are rampant, as these sites are nearly impossible to regulate. Tunnel collapses have been known to kill 50 people at once, and leave the few survivors severely injured. Cobalt is also very damaging via radiation to human and environmental health. Cobalt production causes significant pollution to the water and soil that has devastated the landscape. The pollution  (acids and wastes from the mines) kills crops primarily through soil damage.',
             location: {
                 center: [25.702,-10.787],
@@ -228,7 +228,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Current conflict, M23, and DRC humanitarian capitol',
-            image: 'images/source.png',
+            image: '',
             description: 'Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
             location: {
                 center: [29.221,-1.662],

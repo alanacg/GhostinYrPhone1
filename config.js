@@ -99,10 +99,11 @@ var config = {
             hidden: false,
             title: 'The Rubber Trade and Movements for Congo Reform',
             image: '',
-            description: '<i> images of rubber vines, ed morel, roger casement </i> Economic pressure on Congo Free State was relieved with the invention of the rubber tire, spurred along by the invention of the automobile.  Rubber could be extracted from wild vines found in the depths of the Congo Basin rainforest, after multiple concessions were made of the region to various European companies, the Force Publique increased their militant presence in the lives of the local Congolese. The militia would kidnap women and children of villages to force the men to extract rubber for them. When there were disturbances, the Force Publique would cut off hands, feet, and sometimes heads of practically anyone they could get their hands on to bring back as proof to their commanders that the issue had been handled. <br> Figures such as Roger Casement and William Henry Sheppard, who served as state officers and missionaries in the Congo, became aware of these atrocities and helped to alert the world. This was the first modern human rights campaign, and was led by an organization called the Congo Reform Association.',
+            description: 'Economic pressure on Congo Free State was relieved with the invention of the rubber tire, spurred along by the invention of the automobile.  Rubber could be extracted from wild vines found in the depths of the Congo Basin rainforest, after multiple concessions were made of the region to various European companies, the Force Publique increased their militant presence in the lives of the local Congolese. The militia would kidnap women and children of villages to force the men to extract rubber for them. When there were disturbances, the Force Publique would cut off hands, feet, and sometimes heads of practically anyone they could get their hands on to bring back as proof to their commanders that the issue had been handled. <br> Figures such as Roger Casement and William Henry Sheppard, who served as state officers and missionaries in the Congo, became aware of these atrocities and helped to alert the world. This was the first modern human rights campaign, and was led by an organization called the Congo Reform Association.',
+            //<i> images of rubber vines, ed morel, roger casement </i> 
             location: {
                 center: [25.641,0.337],
-                zoom: 6.15,
+                zoom: 6.39,
                 pitch: 0,
                 bearing: 5
             },

@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: 'Colonial History of the DRC and the Slave Trade',
             image: 'images/slavevoyage.jpg',
-            description: '<i> Figure: Map of Slave Voyages Database from Emory University. </i> <br> In 1482, modern Europeans first began their contact with the peoples of the present-day region known as Democratic Republic of the Congo. They entered at the mouth of the yellow Congo River, one of the worlds longest rivers that passes through the worlds second largest rainforest. This was significant, as the Europeans used their advanced technology, such as rifles to forcibly kidnap locals from their homes to become slaves in the New World. Ports along this river and nearby coast witnessed some of the cruelest human treatment as a major step along the Middle Passage.',
+            description: '<i> <a href="https://www.slavevoyages.org/voyage/database#maps" target="_blank">Figure</a> - Map of Slave Voyages Database from Emory University. </i> <br> In 1482, modern Europeans first began their contact with the peoples of the present-day region known as Democratic Republic of the Congo. They entered at the mouth of the yellow Congo River, one of the worlds longest rivers that passes through the worlds second largest rainforest. This was significant, as the Europeans used their advanced technology, such as rifles to forcibly kidnap locals from their homes to become slaves in the New World. Ports along this river and nearby coast witnessed some of the cruelest human treatment as a major step along the Middle Passage.',
             location: {
                 center: [12.33735, -6.02134],
                 zoom: 10,
@@ -45,7 +45,7 @@ var config = {
             hidden: false,
             title: 'Early Resource Extraction in the Congo',
             image: 'images/congo_ivory.jpg',
-            description: ' <i> Figure: Display of ivory for a single export shipment. Main source of ivory: the Lomami Concession Company (Kisangani, early 1900s). </i> <br> Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
+            description: ' <i>  - Display of ivory for a single export shipment. Main source of ivory: the Lomami Concession Company (Kisangani, early 1900s). </i> <br> Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
             location: {
                 center: [12.735,-5.830],
                 zoom: 8.96,
@@ -72,7 +72,7 @@ var config = {
             hidden: false,
             title: 'King Leopold II and the Congo Free State',
             image: 'images/freestate.png',
-            description: '<i> Map of territory occupied by Congo Free State c. 1887 (Berry/Illinois U) </i> <br> King Leopold II claims the region as his personal territory following major expeditions by European explorers. During the Berlin Conference of 1885, the major powers of Europe granted King Leopold II permission to establish a colony named Congo Free State in the region. King Leopold II owned the colony until he reached his deathbed in 1908. Once the Belgians took control, they conned locals into unfairly giving up their sovereignty, goods and lands to soldiers known as the Force Publique who ran trade in the region.',
+            description: '<i> <a href="https://images.digital.library.illinois.edu/iiif/2/8836e910-e948-0133-1d3d-0050569601ca-d/full/2365,/0/color.jpg" target="_blank">Figure</a> - Map of territory occupied by Congo Free State c. 1887 (Berry/Illinois U) </i> <br> King Leopold II claims the region as his personal territory following major expeditions by European explorers. During the Berlin Conference of 1885, the major powers of Europe granted King Leopold II permission to establish a colony named Congo Free State in the region. King Leopold II owned the colony until he reached his deathbed in 1908. Once the Belgians took control, they conned locals into unfairly giving up their sovereignty, goods and lands to soldiers known as the Force Publique who ran trade in the region.',
             location: {
                 center: [26.197,-3.936],
                 zoom: 4.92,
@@ -127,7 +127,7 @@ var config = {
             hidden: false,
             title: 'Independence and the Assasination of Lumumba',
             image: 'images/lumumba_speech.jpeg',
-            description: '<i> Lumumba gives a speech after he is elected first Prime Minister of the DRC. </i> <br> The Democratic Republic of the Congo (DRC) was granted independence from Belgium in 1963, when the citizens held their first, and only, free election. Patrice Lumumba was elected, and began to peacefully and equitably transfer the country towards independence. After expressing interest in socialist systems via messaging with the USSR, Western powers such as the US and Belgium grew concerned about Lumumba. They executed an assasination and enabled Joseph Mobutu, a known dictator, to become president next. <br> Leopoldville --> Kinshasa',
+            description: '<i> <a href="https://www.versobooks.com/blogs/news/2437-patrice-lumumba-s-speech-ludo-de-witte-revisits-the-birth-of-the-republic-of-congo-30th-june-1960" target="_blank">Figure</a> - Lumumba gives a speech after he is elected first Prime Minister of the DRC. </i> <br> The Democratic Republic of the Congo (DRC) was granted independence from Belgium in 1963, when the citizens held their first, and only, free election. Patrice Lumumba was elected, and began to peacefully and equitably transfer the country towards independence. After expressing interest in socialist systems via messaging with the USSR, Western powers such as the US and Belgium grew concerned about Lumumba. They executed an assasination and enabled Joseph Mobutu, a known dictator, to become president next. <br> Leopoldville --> Kinshasa',
             location: {
                 center: [15.458,-4.304],
                 zoom: 10.17,

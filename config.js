@@ -45,7 +45,7 @@ var config = {
             hidden: false,
             title: 'Early Resource Extraction in the Congo',
             image: 'images/congo_ivory.jpg',
-            description: ' <i>  - Display of ivory for a single export shipment. Main source of ivory: the Lomami Concession Company (Kisangani, early 1900s). </i> <br> Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
+            description: ' <i>  <a href="https://www.health.belgium.be/sites/default/files/uploads/fields/fpshealth_theme_file/19093061/CITES%20%C3%A0%20ses%20d%C3%A9buts%20-%20Jean-Pierre%20d%E2%80%99Huart.pdf" target="_blank">Figure</a> - Display of ivory for a single export shipment. Main source of ivory: the Lomami Concession Company (Kisangani, early 1900s). </i> <br> Arguably one of the most naturally rich regions of the world, the Congo has been exploited by powers from the Global North since the beginnings of the Age of Exploration (1300-1400). Beginning with the Portuguese, European traders ventured through the jungles and captured native people to be sent along the Middle Passage for enslavement in the Americas. The port at Boma, at the mouth of the Congo River, was used for this and as an export site for the ivory trade, which faced an increased demand in the 1800s. Many elephants resided in the eastern regions of the Congo, and further east in Tanzania, that were captured and then traded through this port.',
             location: {
                 center: [12.735,-5.830],
                 zoom: 8.96,
@@ -210,7 +210,7 @@ var config = {
             hidden: false,
             title: 'Cobalt Impacts on Local Populations and Hazardous Conditions- Mines at Tilwezembe',
             image: 'images/lakemalodig.jpg',
-            description: ' <a href="https://www.theguardian.com/global-development/2019/dec/16/apple-and-google-named-in-us-lawsuit-over-congolese-child-cobalt-mining-deaths" target="_blank">Figure</a> - Although the mining region is known as one of the richest regions in the country, Congolese cobalt miners face a reality where modern day slavery is the norm. Safety violations are rampant, as these sites are nearly impossible to regulate. Tunnel collapses have been known to kill 50 people at once, and leave the few survivors severely injured. Cobalt is also very damaging via radiation to human and environmental health. Cobalt production causes significant pollution to the water and soil that has devastated the landscape. The pollution  (acids and wastes from the mines) kills crops primarily through soil damage.',
+            description: ' <i> <a href="https://www.theguardian.com/global-development/2019/dec/16/apple-and-google-named-in-us-lawsuit-over-congolese-child-cobalt-mining-deaths" target="_blank">Figure</a> - Children work as artisinal miners near the banks of Lake Malo. (The Guardian/Kara) </i> <br> Although the mining region is known as one of the richest regions in the country, Congolese cobalt miners face a reality where modern day slavery is the norm. Safety violations are rampant, as these sites are nearly impossible to regulate. Tunnel collapses have been known to kill 50 people at once, and leave the few survivors severely injured. Cobalt is also very damaging via radiation to human and environmental health. Cobalt production causes significant pollution to the water and soil that has devastated the landscape. The pollution  (acids and wastes from the mines) kills crops primarily through soil damage.',
             location: {
                 center: [25.702,-10.787],
                 zoom: 14.49,
@@ -229,7 +229,7 @@ var config = {
             hidden: false,
             title: 'Current conflict, M23, and DRC humanitarian capitol',
             image: 'images/unfpa_mayindu.jpg',
-            description: '<i> <a href="https://esaro.unfpa.org/en/news/inside-look-life-saving-mobile-clinics-democratic-republic-congo" target="_blank">Figure</a> - UNFPA Buyenga IDP camp (UNFPA/Mayindu) </i> Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
+            description: '<i> <a href="https://esaro.unfpa.org/en/news/inside-look-life-saving-mobile-clinics-democratic-republic-congo" target="_blank">Figure</a> - UNFPA Buyenga IDP camp (UNFPA/Mayindu) </i> <br> Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
             location: {
                 center: [29.221,-1.662],
                 zoom: 11.8,

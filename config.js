@@ -12,8 +12,8 @@ var config = {
     auto: false,
     title: 'Resource Extractivism and the Lasting Impacts of Colonialism in the DRC',
     subtitle: 'Storytelling on the Democratic Republic of the Congo, influenced by King Leopolds Ghost and Cobalt Red',
-    byline: 'By Alana Ginsburg and Kurt Alsheimer',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    byline: 'By Alana Ginsburg and Kurt Alsheimer <br> For GEOG422 Spring 2024 - Dr. Catherine Nakalembe',
+    footer: 'Sources: <br> King Leopolds Ghost: A Story of Greed, Terror and Heroism in Colonial Africa by Adam Hochschild <br> Cobalt Red: How the Blood of the Congo Powers Our Lives by Siddharth Kara <br> The Ghost in Your Phone - in Throughline by NPR (Hosts: Rund Abdelfatah & Ramtin Arablouei) <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
        {
             id: 'opener-chapter',

@@ -229,10 +229,10 @@ var config = {
             hidden: false,
             title: 'Kolwezi and Kasulo - a city built on Cobalt',
             //image: 'images/target.svg',
-            description: '<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> <div class="elfsight-app-85d9268b-cabb-449d-bf19-8a1bde430f34" data-elfsight-app-lazy></div> A slider showing changes in the Kasulo neighborhood of Kolwezi due to the discovery of cobalt. This artisinal mine includes many tunnels.',
+            description: '<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> <div class="elfsight-app-85d9268b-cabb-449d-bf19-8a1bde430f34" data-elfsight-app-lazy></div> A slider showing displacement in the Kasulo neighborhood of Kolwezi due to the discovery of cobalt. This artisinal mine includes many tunnels.',
             location: {
-                center: [26.221, -10.628],
-                zoom: 11.59,
+                center: [25.500,-10.701],
+                zoom: 15.11,
                 pitch: 0,
                 bearing: 0,
             },

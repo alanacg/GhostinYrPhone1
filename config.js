@@ -229,7 +229,7 @@ var config = {
             hidden: false,
             title: 'Kolwezi and Kasulo - a city built on Cobalt',
             //image: 'images/target.svg',
-            description: '<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> <div class="elfsight-app-85d9268b-cabb-449d-bf19-8a1bde430f34" data-elfsight-app-lazy></div> A slider showing displacement in the Kasulo neighborhood of Kolwezi due to the discovery of cobalt. This artisinal mine includes many tunnels.',
+            description: '<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> <div class="elfsight-app-85d9268b-cabb-449d-bf19-8a1bde430f34" data-elfsight-app-lazy></div> <p> A slider showing displacement in the Kasulo neighborhood of Kolwezi due to the discovery of cobalt. This artisinal mine includes many tunnels. </p>',
             location: {
                 center: [25.500,-10.701],
                 zoom: 15.11,
@@ -258,7 +258,7 @@ var config = {
             hidden: false,
             title: 'Current conflict, M23, and DRC humanitarian capitol',
             image: 'images/unfpa_mayindu.jpg',
-            description: '<i> <a href="https://esaro.unfpa.org/en/news/inside-look-life-saving-mobile-clinics-democratic-republic-congo" target="_blank">Figure</a> - UNFPA Buyenga IDP camp (UNFPA/Mayindu) </i> <br> Modern human rights issues and connections to Rwandan genocide. 6 million 1996-2007',
+            description: '<i> <a href="https://esaro.unfpa.org/en/news/inside-look-life-saving-mobile-clinics-democratic-republic-congo" target="_blank">Figure</a> - UNFPA Buyenga IDP camp (UNFPA/Mayindu) </i> <br> For many in the DRC working in the cobalt mines, moving is a faraway dream. The center of decades-long campaign of violence is the Kivu provinces, just north of the mining provinces. The M23 militia dominates this region. The government of Rwanda has been found to help train militants who become part of M23, as most of them are exiled Tutsis with connections to Rwanda, members of the group who committed genocide against their fellow Rwandans of the Hutu tribe in 1996. Over 6 million Congolese were killed between the years 1996-2007 from violence. The city of Goma is the humanitarian epicenter of the region, with millions of displaced people living in UN refugee villages. However, these people are still not free from the reach of M23, who have been known to bomb the refugee camps.',
             location: {
                 center: [29.221,-1.662],
                 zoom: 11.8,

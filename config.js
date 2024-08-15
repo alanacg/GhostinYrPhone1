@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/alanacg/cltqbay5j02m201ph5ph9a4s9',
-    accessToken: 'pk.eyJ1IjoiYWxhbmFjZyIsImEiOiJjbHI2dTdmaTgyYmJkMmtteWg4aTFyYjd0In0.4egkQvHeJNw_VNBgcSEZmg',
+    accessToken: 'pk.eyJ1IjoiYWxhbmFjZyIsImEiOiJjbHp2cXRlMGswYmhvMmtvbnBwZTZxeTd4In0.pJKSZNEI5Rinuz9lr3hW0Q',
     showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
